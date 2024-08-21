@@ -20,5 +20,5 @@ Print $a + b$ on the first line of output.
 | Number | Score | Constraints |
 | ------ | ----- | ----------- |
 | 1      | 10    | $a = b = 1$ |
-| 2      | 90    | $a, b \le 5$ |
+| 2      | 90    | $1 \le a, b \le 5$ |
 | 3      | 123   | No additional constraints. |
