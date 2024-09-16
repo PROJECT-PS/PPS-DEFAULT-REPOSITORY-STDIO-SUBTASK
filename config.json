@@ -51,6 +51,11 @@
     ],
     "generators": [
         {
+            "name": "generator.cc",
+            "language": "cpp11",
+            "alias": "random_cc"
+        },
+        {
             "name": "generator_manual.py",
             "language": "py3",
             "alias": "manual"
@@ -59,11 +64,6 @@
             "name": "generator_without_testlib.py",
             "language": "py3",
             "alias": "random_py"
-        },
-        {
-            "name": "generator.cc",
-            "language": "cpp11",
-            "alias": "random_cc"
         }
     ],
     "subtask_group": [
@@ -148,7 +148,7 @@
             "only_deploy": false
         },
         {
-            "script": "random_cc 1 5 1 5",
+            "script": "random_cc 2 5 2 5",
             "subtask_group": "subtask_2",
             "description": "",
             "is_example": false,
