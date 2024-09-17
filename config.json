@@ -70,17 +70,25 @@
         {
             "name": "subtask_1",
             "description": "첫 번째 서브태스크입니다. A = B = 1만 존재합니다.",
-            "score": 10
+            "score": 10,
+            "dependencies": []
         },
         {
             "name": "subtask_2",
             "description": "두 번째 서브태스크입니다. A, B <= 5인 데이터만 존재합니다.",
-            "score": 90
+            "score": 90,
+            "dependencies": [
+                "subtask_1"
+            ]
         },
         {
             "name": "else",
             "description": "세 번째 서브태스크입니다. 그 외 추가 제약이 없는 데이터만 존재합니다.",
-            "score": 123
+            "score": 123,
+            "dependencies": [
+                "subtask_1",
+                "subtask_2"
+            ]
         }
     ],
     "genscript": [
